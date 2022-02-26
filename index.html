@@ -1,0 +1,2233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TILE STORE</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar__top">
+      <div class="container">
+        <div class="navbar__top-inner">
+          <div class="navbar__top-content">
+            <a class="navbar__top-content-link" href="#">SNABBA LEVERANSER</a>
+            <a class="navbar__top-content-link" href="#">Hög kvalité</a>
+            <a class="navbar__top-content-link" href="#">Miljötänk</a>
+          </div>
+          <a class="navbar__top-rate" href="#">
+            <picture class="navbar__top-rate-img">
+              <source srcset="images/google-reyt-mobile.svg" media="(max-width: 1000px)">
+              <img src="images/google-reyt.png" alt="">
+            </picture>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar__bottom">
+      <div class="container">
+        <div class="navbar__bottom-inner">
+          <a class="logo" href="#">
+            <picture class="logo__img">
+              <source srcset="images/logo-mobile.svg" media="(max-width: 1100px)">
+              <img src="images/logo.svg" alt="">
+            </picture>
+          </a>
+          <div class="navbar__box">
+            <form class="navbar__box-top" action="#">
+              <div class="navbar__box-top-box">
+                <input class="navbar__box-top-input" type="text" placeholder="Vad söker du?">
+              </div>
+              <div class="navbar__buttons">
+                <button class="navbar__buttons-item">
+                  <img class="navbar__buttons-item-img" src="images/time-icon.svg" alt="">
+                </button>
+                <button class="navbar__buttons-item">
+                  <img class="navbar__buttons-item-img" src="images/favorit-icon.svg" alt="">
+                </button>
+                <button class="navbar__buttons-item">
+                  <img class="navbar__buttons-item-img" src="images/user-icon.svg" alt="">
+                </button>
+                <button class="navbar__buttons-item">
+                  <img class="navbar__buttons-item-img" src="images/bascet-icon.svg" alt="">
+                </button>
+              </div>
+            </form>
+            <nav class="navbar__box-bottom">
+              <ul class="navbar__box-bottom-list">
+                <li class="navbar__box-bottom-list-item dropmenu">
+                  <a class="navbar__box-bottom-list-link dropmenu__link" href="#">kakel & klinker</a>
+                  <div class="dropmenu__box klinker__box">
+                    <div class="dropmenu__box-left klinker__box-left">
+                      <a class="dropmenu__box-left-item klinker__box-left-item active" data-tab="1">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-1.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">textil</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="2">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-2.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">Mönstrat</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="3">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-3.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">betong</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="4">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-4.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">hexagon</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="5">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-5.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">metall</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="6">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-6.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">sten</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="7">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-7.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">mosaik</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="8">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-8.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">marmor</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="9">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-9.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">lister</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="10">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-10.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">Trä</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="11">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-11.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">enfärgat</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="12">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-12.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">metro</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="13">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-13.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">lera</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="14">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-14.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">decor</p>
+                      </a>
+                      <a class="dropmenu__box-left-item klinker__box-left-item" data-tab="15">
+                        <img class="dropmenu__box-left-item-img klinker__box-left-item-img"
+                          src="images/klinker-drop-15.png" alt="">
+                        <p class="dropmenu__box-left-item-title klinker__box-left-item-title">stor storlek</p>
+                      </a>
+                    </div>
+                    <div class="dropmenu__box-right">
+                      <div class="dropmenu__box-right-drop active" data-tab="1">
+                        <h3 class="dropmenu__box-right-title drop__title">textil</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/textil.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/textil.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="2">
+                        <h3 class="dropmenu__box-right-title drop__title">Mönstrat</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-1.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-2.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="3">
+                        <h3 class="dropmenu__box-right-title drop__title">betong</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/textil.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/textil.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="4">
+                        <h3 class="dropmenu__box-right-title drop__title">hexagon</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/hexagon-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/hexagon-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="5">
+                        <h3 class="dropmenu__box-right-title drop__title">metall</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/marmor-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/marmor-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="6">
+                        <h3 class="dropmenu__box-right-title drop__title">sten</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/textil.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-1.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="7">
+                        <h3 class="dropmenu__box-right-title drop__title">mosaik</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-1.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-2.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="8">
+                        <h3 class="dropmenu__box-right-title drop__title">marmor</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/marmor-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/marmor-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="9">
+                        <h3 class="dropmenu__box-right-title drop__title">lister</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/klinker-1.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/hexagon-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="10">
+                        <h3 class="dropmenu__box-right-title drop__title">Trä</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/klinker-2.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/textil.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="11">
+                        <h3 class="dropmenu__box-right-title drop__title">enfärgat</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/badrumsmöbler-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/hexagon-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="12">
+                        <h3 class="dropmenu__box-right-title drop__title">metro</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/tvättställ-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/marmor-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="13">
+                        <h3 class="dropmenu__box-right-title drop__title">lera</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/tvättställ-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/marmor-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="14">
+                        <h3 class="dropmenu__box-right-title drop__title">decor</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/textil.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/klinker-1.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="15">
+                        <h3 class="dropmenu__box-right-title drop__title">stor storlek</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/marmor-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/hexagon-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="navbar__box-bottom-list-item dropmenu">
+                  <a class="navbar__box-bottom-list-link dropmenu__link" href="#">badrum</a>
+                  <div class="dropmenu__box">
+                    <div class="dropmenu__box-left">
+                      <a class="dropmenu__box-left-item active" data-tab="1">
+                        <img class="dropmenu__box-left-item-img" src="images/drop-1.png" alt="">
+                        <p class="dropmenu__box-left-item-title">badrumsmöbler</p>
+                      </a>
+                      <a class="dropmenu__box-left-item" data-tab="2">
+                        <img class="dropmenu__box-left-item-img" src="images/drop-3.png" alt="">
+                        <p class="dropmenu__box-left-item-title">speglar</p>
+                      </a>
+                      <a class="dropmenu__box-left-item" data-tab="3">
+                        <img class="dropmenu__box-left-item-img" src="images/drop-2.png" alt="">
+                        <p class="dropmenu__box-left-item-title">tvättställ</p>
+                      </a>
+                      <a class="dropmenu__box-left-item" data-tab="4">
+                        <img class="dropmenu__box-left-item-img" src="images/drop-4.png" alt="">
+                        <p class="dropmenu__box-left-item-title">tvättställsskåp</p>
+                      </a>
+                      <a class="dropmenu__box-left-item" data-tab="5">
+                        <img class="dropmenu__box-left-item-img" src="images/drop-5.png" alt="">
+                        <p class="dropmenu__box-left-item-title">väggskåp</p>
+                      </a>
+                    </div>
+                    <div class="dropmenu__box-right">
+                      <div class="dropmenu__box-right-drop active" data-tab="1">
+                        <h3 class="dropmenu__box-right-title drop__title">badrumsmöbler</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/badrumsmöbler-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/badrumsmöbler-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="2">
+                        <h3 class="dropmenu__box-right-title drop__title">speglar</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-1.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-2.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="3">
+                        <h3 class="dropmenu__box-right-title drop__title">tvättställ</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/tvättställ-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/tvättställ-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="4">
+                        <h3 class="dropmenu__box-right-title drop__title">tvättställsskåp</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/badrumsmöbler-1.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/badrumsmöbler-2.jpg" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                      <div class="dropmenu__box-right-drop" data-tab="5">
+                        <h3 class="dropmenu__box-right-title drop__title">väggskåp</h3>
+                        <div class="dropmenu__card-box">
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-1.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="dropmenu__box-right-card product-card-item">
+                            <div class="product-card-item-box">
+                              <img class="product-card-item-img" src="images/product-card-2.png" alt="">
+                              <div class="product-card-item-box-sale">
+                                <p class="product-card-item-box-number">-15%</p>
+                                <p class="product-card-item-box-disc">Discount</p>
+                              </div>
+                            </div>
+                            <div class="product-card-content">
+                              <h4 class="product-card-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                                Stengrå (3 Delar)
+                              </h4>
+                              <p class="product-card-content-sale">13000.00 kr</p>
+                              <p class="product-card-content-price">11999.00 kr</p>
+                              <div class="product-card-content-bottom">
+                                <img class="product-card-content-bottom-img" src="images/product-card-bottom-left.png"
+                                  alt="">
+                                <div class="product-card-content-bottom-favorit" alt=""></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <a class="btn dropmenu__box-right-btn" href="#">Utforska vår shop</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="navbar__box-bottom-list-item">
+                  <a class="navbar__box-bottom-list-link" href="#">art deco / exclusive</a>
+                </li>
+                <li class="navbar__box-bottom-list-item">
+                  <a class="navbar__box-bottom-list-link" href="#">utomnus</a>
+                </li>
+                <li class="navbar__box-bottom-list-item">
+                  <a class="navbar__box-bottom-list-link" href="#">stor storlek</a>
+                </li>
+                <li class="navbar__box-bottom-list-item">
+                  <a class="navbar__box-bottom-list-link" href="#" style="color:#D32743">inspiration</a>
+                </li>
+                <li>
+                  <div class="burger">
+                    <button class="burger__btn burger__btn-1">
+                      <span class="burger__btn-line"></span>
+                    </button>
+                    <p class="burger__text">menu</p>
+                    <div class="menu">
+                      <div class="menu__top">
+                        <button class="burger__btn burger__btn-2">
+                          <span class="burger__btn-line burger__btn-line-2"></span>
+                        </button>
+                        <h4 class="menu__title">
+                          menu
+                        </h4>
+                      </div>
+                      <ul class="menu__list menu__list-mobile">
+                        <li class="menu__list-item menu__list-mobile-item">
+                          <a class="menu__list-link menu__list-mobile-link" href="#">Kakel & klinker</a>
+                        </li>
+                        <li class="menu__list-item menu__list-mobile-item">
+                          <a class="menu__list-link menu__list-mobile-link" href="#">badrum</a>
+                        </li>
+                        <li class="menu__list-item menu__list-mobile-item">
+                          <a class="menu__list-link menu__list-mobile-link" href="#">utomhus</a>
+                        </li>
+                        <li class="menu__list-item menu__list-mobile-item">
+                          <a class="menu__list-link menu__list-mobile-link" href="#">Art Deco/ Exclusive</a>
+                        </li>
+                        <li class="menu__list-item menu__list-mobile-item">
+                          <a class="menu__list-link menu__list-mobile-link" href="#">Stor Storlek</a>
+                        </li>
+                      </ul>
+                      <ul class="menu__list">
+                        <li class="menu__list-item menu__list-item-1">
+                          <a class="menu__list-link" href="#">försändelse spårning</a>
+                        </li>
+                        <li class="menu__list-item menu__list-item-2">
+                          <a class="menu__list-link" href="#">kontakta oss</a>
+                        </li>
+                        <li class="menu__list-item menu__list-item-3">
+                          <a class="menu__list-link" href="#">vanliga frågor</a>
+                        </li>
+                        <li class="menu__list-item menu__list-item-4">
+                          <a class="menu__list-link" href="#">villkor & frakt</a>
+                        </li>
+                        <li class="menu__list-item menu__list-item-5">
+                          <a class="menu__list-link" href="#">om oss</a>
+                        </li>
+                        <li class="menu__list-item menu__list-item-6">
+                          <a class="menu__list-link" href="#">integritetspolicy</a>
+                        </li>
+                      </ul>
+                      <div class="menu__box-social">
+                        <a class="menu__box-social-facebook" href="#">
+                          <img src="images/facebook-burger.svg" alt="">
+                        </a>
+                        <a class="menu__box-social-instagramm" href="#">
+                          <img src="images/insta-burger.svg" alt="">
+                        </a>
+                        <a class="menu__box-social-pinterest" href="#">
+                          <img src="images/pinterest-burger.svg" alt="">
+                        </a>
+                      </div>
+                      <div class="menu__box-bottom-user">
+                        <div class="menu__box-bottom-user-search user-item">
+                          <img src="images/search-white.svg" alt="">
+                        </div>
+                        <div class="menu__box-bottom-user-hystory user-item">
+                          <img src="images/history-white.svg" alt="">
+                        </div>
+                        <div class="menu__box-bottom-user-bascet user-item">
+                          <img src="images/bascet-icon.svg" alt="">
+                        </div>
+                        <div class="menu__box-bottom-user-favorite user-item">
+                          <img src="images/favourite-white.svg" alt="">
+                        </div>
+                        <div class="menu__box-bottom-user-user user-item">
+                          <img src="images/user-white.svg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="navbar__box-bottom-logo">
+                  <img class="logo__mobile" src="images/logo-mobile.svg" alt="">
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <main class="main">
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+            <div class="top__leftslider">
+              <div class="top__leftslider-item">
+                <img class="top__leftslider-img" src="images/top-bg-1.jpg" alt="">
+                <div class="top__leftslider-content">
+                  <p class="top__leftslider-subtitle">ready-made planning solutions for your home
+                  </p>
+                  <h1 class="top__leftslider-title">with new
+                    collectioncs
+                  </h1>
+                  <p class="top__leftslider-description">kitchens, bathrooms</p>
+                  <a class="top__leftslider-btn btn" href="#">Utforska vår shop</a>
+                </div>
+              </div>
+              <div class="top__leftslider-item">
+                <img class="top__leftslider-img" src="images/top-bg-2.jpg" alt="">
+                <div class="top__leftslider-content">
+                  <p class="top__leftslider-subtitle">ready-made planning solutions for your home
+                  </p>
+                  <h1 class="top__leftslider-title">with new
+                    collectioncs
+                  </h1>
+                  <p class="top__leftslider-description">kakel & klinker</p>
+                  <a class="top__leftslider-btn btn" href="#">Utforska vår shop</a>
+                </div>
+              </div>
+              <div class="top__leftslider-item">
+                <img class="top__leftslider-img" src="images/top-bg-3.jpg" alt="">
+                <div class="top__leftslider-content">
+                  <p class="top__leftslider-subtitle">ready-made planning solutions for your home
+                  </p>
+                  <h1 class="top__leftslider-title">with new
+                    collectioncs
+                  </h1>
+                  <p class="top__leftslider-description">art deco / exclusive</p>
+                  <a class="top__leftslider-btn btn" href="#">Utforska vår shop</a>
+                </div>
+              </div>
+              <div class="top__leftslider-item">
+                <img class="top__leftslider-img" src="images/top-bg-4.jpg" alt="">
+                <div class="top__leftslider-content">
+                  <p class="top__leftslider-subtitle">ready-made planning solutions for your home
+                  </p>
+                  <h1 class="top__leftslider-title">with new
+                    collectioncs
+                  </h1>
+                  <p class="top__leftslider-description">kitchens, bathrooms</p>
+                  <a class="top__leftslider-btn btn" href="#">Utforska vår shop</a>
+                </div>
+              </div>
+            </div>
+            <div class="top__rightslider">
+              <div class="top__rightslider-item">
+                <a class="top__rightslider-top">
+                  <img class="top__rightslider-top-img" src="images/top-bg-5.jpg" alt="">
+                  <p class="top__rightslider-text">
+                    REA 30-70%
+                    <span>KÖP NU, BETALA SENARE</span>
+                  </p>
+                </a>
+                <a class="top__rightslider-bottom">
+                  <img class="top__rightslider-bottom-img" src="images/top-bg-6.jpg" alt="">
+                  <div class="top__rightslider-bottom-content">
+                    <h4 class="top__rightslider-bottom-title">Kakel Alesso Svart Matt Marmor 40×120</h4>
+                    <p class="top__rightslider-bottom-sale">800.00 kr</p>
+                    <p class="top__rightslider-bottom-price">599.00 kr</p>
+                  </div>
+                </a>
+              </div>
+              <div class="top__rightslider-item">
+                <a class="top__rightslider-top">
+                  <img class="top__rightslider-top-img" src="images/top-bg-7.jpg" alt="">
+                  <p class="top__rightslider-text">
+                    REA 30-70%
+                    <span>KÖP NU, BETALA SENARE</span>
+                  </p>
+                </a>
+                <a class="top__rightslider-bottom">
+                  <img class="top__rightslider-bottom-img" src="images/top-bg-8.jpg" alt="">
+                  <div class="top__rightslider-bottom-content">
+                    <h4 class="top__rightslider-bottom-title">Kakel Alesso Svart Matt Marmor 40×120</h4>
+                    <p class="top__rightslider-bottom-sale">1900.00 kr</p>
+                    <p class="top__rightslider-bottom-price">1500.00 kr</p>
+                  </div>
+                </a>
+              </div>
+              <div class="top__rightslider-item">
+                <a class="top__rightslider-top">
+                  <img class="top__rightslider-top-img" src="images/top-bg-9.jpg" alt="">
+                  <p class="top__rightslider-text">
+                    REA 30-70%
+                    <span>KÖP NU, BETALA SENARE</span>
+                  </p>
+                </a>
+                <a class="top__rightslider-bottom">
+                  <img class="top__rightslider-bottom-img" src="images/top-bg-10.jpg" alt="">
+                  <div class="top__rightslider-bottom-content">
+                    <h4 class="top__rightslider-bottom-title">Kakel Alesso Svart Matt Marmor 40×120</h4>
+                    <p class="top__rightslider-bottom-sale">2900.00 kr</p>
+                    <p class="top__rightslider-bottom-price">2799.00 kr</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="features">
+        <div class="features__item">
+          <img class="features__item-img features__mobile-img-1" src="images/home-page-icon-1.svg" alt="">
+          <p class="features__item-text"><span>Snabba</span> leveranser</p>
+        </div>
+        <div class="features__item">
+          <img class="features__item-img features__mobile-img-2" src="images/home-page-icon-2.svg" alt="">
+          <p class="features__item-text"><span>security</span> credit card</p>
+        </div>
+        <div class="features__item">
+          <img class="features__item-img features__mobile-img-3" src="images/home-page-icon-3.svg" alt="">
+          <p class="features__item-text"><span>Smidig</span> Finansiering</p>
+        </div>
+        <div class="features__item">
+          <img class="features__item-img features__mobile-img-4" src="images/home-page-icon-4.svg" alt="">
+          <p class="features__item-text"><span>14 dagars</span> öppet köp</p>
+        </div>
+        <div class="features__item">
+          <img class="features__item-img features__mobile-img-5" src="images/home-page-icon-5.svg" alt="">
+        </div>
+        <div class="features__item">
+          <img class="features__item-img features__mobile-img-6" src="images/home-page-icon-6.svg" alt="">
+        </div>
+        <div class="features__item">
+          <img class="features__item-img features__mobile-img-7" src="images/home-page-icon-7.svg" alt="">
+          <p class="features__item-text"><span>eco</span> friendly</p>
+        </div>
+      </div>
+      <div class="decor">
+        <div class="container">
+          <h2 class="decor__title title">Handla efter utseende</h2>
+          <div class="decor__inner">
+            <a class="decor__link" href="#">
+              <img class="decor__img" src="images/decor-1.png">
+              <p class="decor__text">betong</p>
+            </a>
+            <a class="decor__link" href="#">
+              <img class="decor__img" src="images/decor-2.png">
+              <p class="decor__text">Marmor</p>
+            </a>
+            <a class="decor__link" href="#">
+              <img class="decor__img" src="images/decor-3.png">
+              <p class="decor__text">lera</p>
+            </a>
+            <a class="decor__link" href="#">
+              <img class="decor__img" src="images/decor-4.png">
+              <p class="decor__text">sten</p>
+            </a>
+            <a class="decor__link" href="#">
+              <img class="decor__img" src="images/decor-5.png">
+              <p class="decor__text">Mönstrat</p>
+            </a>
+            <a class="decor__link" href="#">
+              <img class="decor__img" src="images/decor-6.png">
+              <p class="decor__text">Trä</p>
+            </a>
+            <a class="decor__link" href="#">
+              <img class="decor__img" src="images/decor-7.png">
+              <p class="decor__text">metall</p>
+            </a>
+            <a class="decor__link" href="#">
+              <img class="decor__img" src="images/decor-8.png">
+              <p class="decor__text">textil</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog">
+        <div class="container">
+          <h2 class="catalog__title title">Handla efter stil</h2>
+          <div class="catalog__top">
+            <div class="catalog__top-item js-tab-content active" href="#" data-tab="1">
+              <img class="catalog__top-img" src="images/fancy-1-1680x470.jpg" alt="" />
+              <div class="catalog__top-content">
+                <p class="catalog__top-title">metro</p>
+                <a class="btn btn-arrow catalog__btn catalog__btn" href="">Handla här</a>
+              </div>
+            </div>
+            <div class="catalog__top-item js-tab-content" href="#" data-tab="2">
+              <img class="catalog__top-img" src="images/fancy-2-1680x470.jpg" alt="" />
+              <div class="catalog__top-content">
+                <p class="catalog__top-title">mosaik</p>
+                <a class="btn btn-arrow catalog__btn" href="">Handla här</a>
+              </div>
+            </div>
+            <div class="catalog__top-item js-tab-content" href="#" data-tab="3">
+              <img class="catalog__top-img" src="images/fancy-3-1680x470.jpg" alt="" />
+              <div class="catalog__top-content">
+                <p class="catalog__top-title">hexagon</p>
+                <a class="btn btn-arrow catalog__btn" href="">Handla här</a>
+              </div>
+            </div>
+            <div class="catalog__top-item js-tab-content" href="#" data-tab="4">
+              <img class="catalog__top-img" src="images/fancy-4-1680x470.jpg" alt="" />
+              <div class="catalog__top-content">
+                <p class="catalog__top-title">terazzo</p>
+                <a class="btn btn-arrow catalog__btn" href="">Handla här</a>
+              </div>
+            </div>
+            <div class="catalog__top-item js-tab-content" href="#" data-tab="5">
+              <img class="catalog__top-img" src="images/fancy-5-1680x470.jpg" alt="" />
+              <div class="catalog__top-content">
+                <p class="catalog__top-title">decor</p>
+                <a class="btn btn-arrow catalog__btn" href="">Handla här</a>
+              </div>
+            </div>
+            <div class="catalog__top-item js-tab-content" href="#" data-tab="6">
+              <img class="catalog__top-img" src="images/fancy-6-1680x470.jpg" alt="" />
+              <div class="catalog__top-content">
+                <p class="catalog__top-title">lister</p>
+                <a class="btn btn-arrow catalog__btn" href="">Handla här</a>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__bottom">
+            <div class="catalog__bottom-item js-tab-trigger active" data-tab="1">
+              <img class="catalog__bottom-img" src="images/fancy-1-261x168.jpg" alt="" />
+              <p class="catalog__bottom-item-title">metro</p>
+            </div>
+            <div class="catalog__bottom-item js-tab-trigger" data-tab="2">
+              <img class="catalog__bottom-img" src="images/fancy-2-261x168.jpg" alt="" />
+              <p class="catalog__bottom-item-title">mosaik</p>
+            </div>
+            <div class="catalog__bottom-item js-tab-trigger" data-tab="3">
+              <img class="catalog__bottom-img" src="images/fancy-3-261x168.jpg" alt="" />
+              <p class="catalog__bottom-item-title">hexagon</p>
+            </div>
+            <div class="catalog__bottom-item js-tab-trigger" data-tab="4">
+              <img class="catalog__bottom-img" src="images/fancy-4-261x168.jpg" alt="" />
+              <p class="catalog__bottom-item-title">terazzo</p>
+            </div>
+            <div class="catalog__bottom-item js-tab-trigger" data-tab="5">
+              <img class="catalog__bottom-img" src="images/fancy-5-261x168.jpg" alt="" />
+              <p class="catalog__bottom-item-title">decor</p>
+            </div>
+            <div class="catalog__bottom-item js-tab-trigger" data-tab="6">
+              <img class="catalog__bottom-img" src="images/fancy-6-261x168.jpg" alt="" />
+              <p class="catalog__bottom-item-title">lister</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="categorier">
+        <div class="container">
+          <h2 class="categorier__title title">kategorier</h2>
+          <div class="categorier__inner">
+            <ul class="categorier__tab">
+              <li class="categorier__tab-title js-tab-trigger-categorier active" href="#" data-tab="1">kakel & klinker
+              </li>
+              <li class="categorier__tab-title js-tab-trigger-categorier" href="#" data-tab="2">badrum</li>
+              <li class="categorier__tab-title js-tab-trigger-categorier" href="#" data-tab="3">art deco & exclusive
+              </li>
+              <li class="categorier__tab-title js-tab-trigger-categorier" href="#" data-tab="4">utomhus</li>
+              <li class="categorier__tab-title js-tab-trigger-categorier" href="#" data-tab="5">Stor Storlek</li>
+            </ul>
+            <div class="categorier__items">
+              <div class="categorier__item js-tab-content-categorier active" data-tab="1">
+                <div class="categorier__item-inner">
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-1.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-2.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-3.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-4.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <a class="categorier__btn btn btn__arrow" href="#">Handla här</a>
+              </div>
+              <div class="categorier__item js-tab-content-categorier" data-tab="2">
+                <div class="categorier__item-inner">
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-3.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-4.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-1.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-2.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <a class="categorier__btn btn btn__arrow" href="#">Handla här</a>
+              </div>
+              <div class="categorier__item js-tab-content-categorier" data-tab="3">
+                <div class="categorier__item-inner">
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-3.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-1.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-2.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-4.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <a class="categorier__btn btn btn__arrow" href="#">Handla här</a>
+              </div>
+              <div class="categorier__item js-tab-content-categorier" data-tab="4">
+                <div class="categorier__item-inner">
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-4.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-4.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-1.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-2.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <a class="categorier__btn btn btn__arrow" href="#">Handla här</a>
+              </div>
+              <div class="categorier__item js-tab-content-categorier" data-tab="5">
+                <div class="categorier__item-inner">
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-5.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-4.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-1.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="categorier__item-card">
+                    <div class="categorier__item-box">
+                      <img class="categorier__item-img" src="images/categorier-img-2.jpg" alt="">
+                      <div class="categorier__item-box-sale">
+                        <p class="categorier__item-box-number">-15%</p>
+                        <p class="categorier__item-box-disc">Discount</p>
+                      </div>
+                    </div>
+                    <div class="categorier__item-content">
+                      <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                        Stengrå (3 Delar)
+                      </h4>
+                      <p class="categorier__item-content-sale">13000.00 kr</p>
+                      <p class="categorier__item-content-price">11999.00 kr</p>
+                      <div class="categorier__item-content-bottom">
+                        <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png"
+                          alt="">
+                        <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <a class="categorier__btn btn btn__arrow" href="#">Handla här</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="container">
+          <div class="product__inner">
+            <h2 class="product__title title">Nya Produkter</h2>
+            <div class="product__slider active">
+              <a class="product__slider-item categorier__item-card">
+                <div class="categorier__item-box">
+                  <img class="product__slider-item-img categorier__item-img" src="images/categorier-img-1.jpg" alt="">
+                  <div class="categorier__item-box-sale">
+                    <p class="categorier__item-box-number">-15%</p>
+                    <p class="categorier__item-box-disc">Discount</p>
+                  </div>
+                </div>
+                <div class="categorier__item-content">
+                  <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                    Stengrå (3 Delar)
+                  </h4>
+                  <p class="categorier__item-content-sale">13000.00 kr</p>
+                  <p class="categorier__item-content-price">11999.00 kr</p>
+                  <div class="categorier__item-content-bottom">
+                    <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png" alt="">
+                    <div class="product__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="product__slider-item categorier__item-card">
+                <div class="categorier__item-box">
+                  <img class="product__slider-item-img categorier__item-img" src="images/categorier-img-2.jpg" alt="">
+                  <div class="categorier__item-box-sale">
+                    <p class="categorier__item-box-number">-15%</p>
+                    <p class="categorier__item-box-disc">Discount</p>
+                  </div>
+                </div>
+                <div class="categorier__item-content">
+                  <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                    Stengrå (3 Delar)
+                  </h4>
+                  <p class="categorier__item-content-sale">13000.00 kr</p>
+                  <p class="categorier__item-content-price">11999.00 kr</p>
+                  <div class="categorier__item-content-bottom">
+                    <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png" alt="">
+                    <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="product__slider-item categorier__item-card">
+                <div class="categorier__item-box">
+                  <img class="product__slider-item-img categorier__item-img" src="images/categorier-img-3.jpg" alt="">
+                  <div class="categorier__item-box-sale">
+                    <p class="categorier__item-box-number">-15%</p>
+                    <p class="categorier__item-box-disc">Discount</p>
+                  </div>
+                </div>
+                <div class="categorier__item-content">
+                  <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                    Stengrå (3 Delar)
+                  </h4>
+                  <p class="categorier__item-content-sale">13000.00 kr</p>
+                  <p class="categorier__item-content-price">11999.00 kr</p>
+                  <div class="categorier__item-content-bottom">
+                    <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png" alt="">
+                    <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="product__slider-item categorier__item-card">
+                <div class="categorier__item-box">
+                  <img class="product__slider-item-img categorier__item-img" src="images/categorier-img-4.jpg" alt="">
+                  <div class="categorier__item-box-sale">
+                    <p class="categorier__item-box-number">-15%</p>
+                    <p class="categorier__item-box-disc">Discount</p>
+                  </div>
+                </div>
+                <div class="categorier__item-content">
+                  <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                    Stengrå (3 Delar)
+                  </h4>
+                  <p class="categorier__item-content-sale">13000.00 kr</p>
+                  <p class="categorier__item-content-price">11999.00 kr</p>
+                  <div class="categorier__item-content-bottom">
+                    <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png" alt="">
+                    <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="product__slider-item categorier__item-card">
+                <div class="categorier__item-box">
+                  <img class="product__slider-item-img categorier__item-img" src="images/categorier-img-3.jpg" alt="">
+                  <div class="categorier__item-box-sale">
+                    <p class="categorier__item-box-number">-15%</p>
+                    <p class="categorier__item-box-disc">Discount</p>
+                  </div>
+                </div>
+                <div class="categorier__item-content">
+                  <h4 class="categorier__item-content-title">Italienska Badrumsmöbelset Baden Haus Bellagio
+                    Stengrå (3 Delar)
+                  </h4>
+                  <p class="categorier__item-content-sale">13000.00 kr</p>
+                  <p class="categorier__item-content-price">11999.00 kr</p>
+                  <div class="categorier__item-content-bottom">
+                    <img class="categorier__item-content-bottom-img" src="images/product-card-bottom-left.png" alt="">
+                    <div class="categorier__item-content-bottom-favorit product-card-content-bottom-favorit" alt="">
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <a class="product__btn btn btn__arrow" href="#">Alla produkter</a>
+          </div>
+        </div>
+      </div>
+      <div class="store">
+        <div class="container">
+          <div class="store__inner">
+            <div class="store__content">
+              <h2 class="store__title title">kakel store </h2>
+              <p class="store__text">Vårt arbete är ett uttryck för vilka vi är.
+                Vad vi älskar och vad inspirerar oss.</p>
+              <a href="" class="store__btn btn btn-arrow">Läs mer här</a>
+            </div>
+            <div class="store__box">
+              <img class="store__box-img" src="images/store-img.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="container">
+          <h2 class="gallery__title title">
+            Funderar du över något mera?
+            Låt dig inspireras utav allt vi har att erbjuda
+          </h2>
+          <div class="gallery__inner">
+            <div class="gallery__col col-1">
+              <h3 class="col-1-title">
+                Följ de senaste trenderna.
+                Gå in på vår Instagram sida för design och projektidéer
+              </h3>
+              <a class="gallery__btn btn" href="#">FÖLJ OSS</a>
+            </div>
+            <div class="gallery__col col-2">
+              <div class="gallery__col-row col-row-1">
+                <h3 class="col-2-title">
+                  inspirations
+                </h3>
+                <a class="gallery__btn gallery__btn-1 btn btn-arrow" href="#">Se mer här</a>
+              </div>
+              <div class="gallery__col-row col-row-2">
+                <h3 class="col-2-title">
+                  Varför välja Granitkeramik?
+                </h3>
+                <a class="gallery__btn gallery__btn-2 btn btn-arrow" href="#">Läs mer här</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </main>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__content">
+          <picture class="footer__logo-img">
+            <source srcset="images/footer-logo-mobile.svg" media="(max-width: 1100px)">
+            <img src="images/footer-logo-desctop.svg" alt="">
+          </picture>
+          <p class="footer__content-text footer__content-text-1">
+            Vi använder cookies, för att öka användarvänligheten i enlighet med lagen om elektronisk kommunikation.
+          </p>
+          <p class="footer__content-text footer__content-text-2">
+            Genom att fortsätta använda vår webplats förutsätter vi att du godkänner detta. Läs mer om integritetspolicy.
+          </p>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="images/facebook-footer.svg" alt="">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="images/insta-footer.svg" alt="">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="images/pinterest-footer.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__menu">
+          <div class=" footer__menu-box footer__menu-box-1">
+            <h3 class="footer__menu-title" data-name="accordeon-title">
+              KUNDSERVICE
+            </h3>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Villkor & Frakt</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Försändelse Spårning</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Vanliga Frågor</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Integritetspolicy</a>
+              </li>
+            </ul>
+          </div>
+          <div class=" footer__menu-box footer__menu-box-2">
+            <h3 class="footer__menu-title" data-name="accordeon-title">
+              INFORMATION
+            </h3>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Om Oss</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Kontakta Oss</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Inspirations</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Varför välja Granitkeramik?</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copy">
+    <div class="container">
+      <div class="copy__inner">
+        <p class="copy__text">2021 All rights reserved to Kakel store ab</p>
+        <div class="copy__center">
+          <img class="copy__center-img" src="images/footer-center.svg" alt="">
+        </div>
+        <div class="copy__right">
+          <img class="copy__right-img" src="images/footer-right-1.svg" alt="">
+          <img class="copy__right-google" src="images/footer-google.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
